@@ -6,6 +6,8 @@ This is a minimal Alpine Linux (3.4) based progreSQL image. Unlike the official 
 You don't need to build this image yourself, you can pull a pre-built image from docker hub by typing:
 `docker pull yorkshirekev/postgres:9.5`
 
+https://hub.docker.com/r/yorkshirekev/postgres/
+
 You will need to exec into the running contaner and create databases, password authenticated users etc:
 `docker exec -it postgres psql postgres` (where the first postgres in the command is the container name).
 
